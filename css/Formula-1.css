@@ -138,6 +138,7 @@ body {
 	margin: -45px 0px 50px 0px;
 }
 /*--------------MAIN----------------------*/
+/*
 .main-block__image{
 	position: relative;
 }
@@ -147,6 +148,7 @@ body {
 	top: 0;
 	left: 0;
 }
+*/
 /*-----------------TABLES-------------------*/
 .tables {
 }
@@ -173,7 +175,7 @@ body {
 .tables__item {
 	height: 100%;
 	box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
-	background: linear-gradient(white, #D3D3D3);
+	background: linear-gradient(#fafafa, #D3D3D3);
 	padding: 35px;
 }
 
@@ -218,7 +220,7 @@ body {
 .item-tables__text li:first-child{
 	background-color: gold;
 }
-/---------------Teams-------------------
+/*---------------Teams-------------------*/
 .page__services_1 {
     position: relative;
 	z-index: 2;
@@ -226,7 +228,7 @@ body {
 }
 
 .services__body_1 {
-    background: linear-gradient(white, #D3D3D3);
+    background: linear-gradient(#D3D3D3, #fafafa);
 }
 
 @media (min-width: 670px) {
@@ -234,6 +236,8 @@ body {
 		display: flex;
 		flex-wrap: wrap;
 		margin: 0px -15px;
+		justify-content: center;
+		align-items: center;
 	}
 }
 
@@ -241,7 +245,7 @@ body {
 	flex: 0 1 50%;
 }
 
-.services__column_1: last-child {
+.services__column_1:last-child {
 	flex: 1 1 100%;
 }
 
@@ -262,13 +266,17 @@ body {
 		flex: 1 1 100%;
 	}
 }
-
+.pilot{
+	height: 300px;
+	width: 200px;
+}
+.car{
+	height: 300px;
+	width: 500px;
+}
 
 .thumbs {
-  width: auto;
-  height: auto;
-  max-width: 450px;
-  margin: 10px;
+  margin: 20px;
   opacity: .99;
   overflow: hidden;
   position: relative;
