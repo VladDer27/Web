@@ -7,6 +7,7 @@
         <link rel="icon" href="img/favicon/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="css/style.css">
          <link rel="stylesheet" href="css/Rally.css">
+		 <link rel="stylesheet" href="css/slideshow.css">
         <title>Ралли</title>
     </head>
     <body>
@@ -128,6 +129,31 @@
 							</tr>
 						</tbody>
 					</table>
+				</section>
+				<section>
+					<div class="advantages__header header-block">
+						<h2 class="header-block__title">Фото</h2>
+				   </div>
+					<div class="slideshow-container">
+						<div class="mySlides fade">
+							<img src="img/rally/baja.jpg" style="width: 100%" alt="">
+						</div>
+						<div class="mySlides fade">
+							<img src="img/rally/raid.jpg" style="width: 100%" alt="">
+						</div>
+						<div class="mySlides fade">
+							<img src="img/rally/marathon.jpg" style="width: 100%" alt="">
+						</div>
+						<a class="prev" onclick="plusSlides(-1)">&#10094</a>
+						<a class="next" onclick="plusSlides(1)">&#10095</a>
+					</div>
+					<br>
+					<div style="text-align: center;">
+						<span class="dot" onclick="currentSlide(1)"></span>
+						<span class="dot" onclick="currentSlide(2)"></span>
+						<span class="dot" onclick="currentSlide(3)"></span>
+					</div>
+					<script src="js/slide.js"></script>
 				</section>
 			</main>
 			<footer class="footer">
