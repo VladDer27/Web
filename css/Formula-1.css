@@ -227,8 +227,35 @@ body {
 	margin: 0;
 }
 
-.services__body_1 {
-    background: linear-gradient(#D3D3D3, #fafafa);
+.Red-Bull{
+	background:linear-gradient(red, black);
+}
+.Ferrari{
+	background:linear-gradient(yellow, red);
+}
+.Mercedec{
+	background:linear-gradient(grey, #20B2AA);
+}
+.Alpine{
+	background:linear-gradient(blue, pink);
+}
+.Maclaren{
+	background:linear-gradient(orange, lightblue);
+}
+.Alpha-Romeo{
+	background:linear-gradient(black, red);
+}
+.Aston-Martin{
+	background:linear-gradient(yellow, green);
+}
+.Haas{
+	background:linear-gradient(white, red, blue);
+}
+.Alpha-Tauri{
+	background:linear-gradient(grey, white);
+}
+.Williams{
+	background:linear-gradient(lightblue, darkblue);
 }
 
 @media (min-width: 670px) {
@@ -267,12 +294,11 @@ body {
 	}
 }
 .pilot{
-	height: 300px;
-	width: 200px;
+	height: 400px;
+	width: 300px;
 }
 .car{
-	height: 300px;
-	width: 500px;
+	width: 850px;
 }
 
 .thumbs {
