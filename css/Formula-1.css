@@ -262,7 +262,7 @@ body {
 	.services__body_1 {
 		display: flex;
 		flex-wrap: wrap;
-		margin: 0px -15px;
+		margin: 35px 0;
 		justify-content: center;
 		align-items: center;
 	}
