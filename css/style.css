@@ -127,7 +127,7 @@ body {
 	margin: 0px 21px 0px 0px;
 }
 .menu__link {
-	color: #737373;
+	color: black;
 	font-weight: 600;
 	line-height: calc(24 / 14 * 100%);
 	font-size: 20px;
@@ -137,7 +137,7 @@ body {
 }
 @media (max-width: 479px) {
 	.menu__link {
-		font-size: 18px;
+		font-size: 15px;
 	}
 }
 /* ---PAGE------------------------------------------------------------------------- */
@@ -298,13 +298,13 @@ body {
 	top: 0;
 	left: 0;
 }
-/*
-@media (max-width: 1300px) {
+
+@media (max-width: 479px) {
 	.main-block__image img {
-		object-position: left;
+		opacity: 0.7;
 	}
 }
-*/
+
 /* ----------------------------------- */
 .services {
 }

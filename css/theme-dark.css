@@ -43,3 +43,18 @@ body{
 .footer__copy {
 	color: #ffffff;
 }
+.table th {
+	background: #222222;
+}
+.gl{
+    background-color: #222222;
+}
+.inputBx input::placeholder {
+    color: #ffffff;
+}
+.remember{
+	color: #ffffff;
+}
+.grid{
+	background-color: #222222;
+}
